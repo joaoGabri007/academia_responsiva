@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/*Celular*/
+
+body {
+   font-family: monospace;
+   background-image: linear-gradient(to right, black, #a5a5a5, rgb(99, 98, 98));
+   margin: 0px;
+   padding: 0px;
+   opacity: 0;
+   animation: aparecer 0.5s ease-in forwards;
+}
+
+@keyframes aparecer {
+    to {
+        opacity: 5;
+    }
+}
+
+header {
+    text-align: center;
+    background-color: rgba(25, 0, 255, 0.199);
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0px;
+    margin: 0px;
+    text-shadow: -1px -1px 0 rgb(201, 201, 0),
+    1px -1px 0 rgb(201, 201, 0),
+    -1px 1px 0 rgb(201, 201, 0),
+    1px 1px 0 rgb(201, 201, 0);
+}
+
+h2 {
+    font-size: 2em;
+    margin-left: 20px;
+    color: rgb(204, 192, 30);
+}
+
+h3 {
+    color: rgb(26, 0, 51);/*rgb(184, 184, 0);*/
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.play {
+   text-align: center;
+}
+
+div {
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: rgba(129, 128, 128, 0.397);
+    border: 1.3px solid rgba(26, 0, 51, 0.377);
+    border-radius: 20px;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-indent: 30px;
+    line-height: 1.6;
+    text-shadow: 3px 3px 5px black;
+    text-align: justify;
+}
+
+strong {
+    color: darkgoldenrod;
+}
+
+ul {
+    color: rgb(26, 0, 51);
+    font-size: 16px;
+}
+
+table {
+    width: 50px;
+    font-size: 16px;
+    margin-left: 20px;
+    border-collapse: collapse;
+    margin: auto;
+    color: rgb(66, 0, 0);
+}
+
+td, th {
+    text-align: center;
+    border: 1px solid rgb(184, 184, 0);
+    padding: 8px;
+    text-align: center;
+}
+
+img {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.trey {
+    color: rgb(255, 255, 255);
+    /*font-size: 16px;
+    margin-left: 20px;
+    text-indent: 30px;
+    line-height: 1.6;*/
+}
+
+a {
+    color: rgb(179, 179, 0);
+}
