@@ -1,1 +1,57 @@
 @charset "utf-8";
+
+/*@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+
+    }
+}*/
+
+@media screen and (min-width:992px) and (max-width: 1200px) {
+
+        main {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 120px;
+            margin: 0px;
+            margin: 0px;
+            text-shadow: -1px -1px 0 rgb(201, 201, 0),
+            1px -1px 0 rgb(201, 201, 0),
+            -1px 1px 0 rgb(201, 201, 0),
+            1px 1px 0 rgb(201, 201, 0);
+        }
+
+        div {
+            margin-right: 15px;
+            margin-left: 15px;
+            background-color: rgba(129, 128, 128, 0.397);
+            border: 3.10px solid rgba(26, 0, 51, 0.377);
+            border-radius: 20px;
+        }
+
+        p {
+            /*width: 100%;
+            max-width: 550px;
+            display: block;
+            margin: auto;*/
+            color: white;
+            font-size: 16px;
+            margin-left: 20px;
+            margin-right: 20px;
+            text-indent: 30px;
+            line-height: 1.6;
+            text-shadow: 2px 2px 4px black;
+        }
+
+        img {
+            width: 550px;
+            display: block;
+            box-shadow: 3px 3px 5px black;
+        }
+
+        table {
+            width: 70%;
+        }
+}
