@@ -1,12 +1,39 @@
 @charset "utf-8";
 
-/*@media screen and (min-width: 768px) and (max-width: 992px) {
-    body {
+@media screen and (min-width: 768px) and (max-width: 992px) { /*tablet*/
+ 
+    main {
+        max-width: 992px;
+        margin: auto;
+     }
 
-    }
-}*/
+     h1 {
+      font-size: 90px;
+      /*margin: 0px;
+      text-shadow: -1px -1px 0 rgb(201, 201, 0),
+      1px -1px 0 rgb(201, 201, 0),
+      -1px 1px 0 rgb(201, 201, 0),
+      1px 1px 0 rgb(201, 201, 0);*/
+     }
 
-@media screen and (min-width:992px) and (max-width: 1200px) {
+     h2 {
+        font-size: 30px;
+     }
+
+     p {
+        font-size: 20px;
+     }
+
+     img {
+        width: 550px;
+        margin: 40px auto;
+        display: block;
+        box-shadow: 3px 3px 5px black;
+     }
+}
+       
+
+@media screen and (min-width:992px) and (max-width: 1200px) { /*computador*/
 
         main {
             max-width: 1200px;
@@ -16,14 +43,17 @@
         h1 {
             font-size: 120px;
             margin: 0px;
-            margin: 0px;
             text-shadow: -1px -1px 0 rgb(201, 201, 0),
             1px -1px 0 rgb(201, 201, 0),
             -1px 1px 0 rgb(201, 201, 0),
             1px 1px 0 rgb(201, 201, 0);
         }
 
-        div {
+        h2 {
+            font-size: 40px;
+        }
+
+        section {
             margin-right: 15px;
             margin-left: 15px;
             background-color: rgba(129, 128, 128, 0.397);
@@ -32,26 +62,36 @@
         }
 
         p {
-            /*width: 100%;
+            width: 100%;
             max-width: 550px;
             display: block;
-            margin: auto;*/
+            margin: auto;
             color: white;
-            font-size: 16px;
+            font-size: 24px;
             margin-left: 20px;
             margin-right: 20px;
             text-indent: 30px;
             line-height: 1.6;
             text-shadow: 2px 2px 4px black;
+            /*text-align: center;*/
         }
 
         img {
-            width: 550px;
-            display: block;
-            box-shadow: 3px 3px 5px black;
-        }
+               width: 100%;
+               /*margin: 40px auto;
+               /*display: block;*/
+               box-shadow: 3px 3px 5px black;
+            }
 
+        .brabo {
+            display: block;
+            margin: auto;
+            width: 600px;
+            box-shadow: 3px 3px 5px black;
+        }    
+    
         table {
-            width: 70%;
-        }
+                width: 70%;
+                margin-top: 40px;
+            }
 }
